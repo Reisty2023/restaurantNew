@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gordita';
+    src: url('../assets/Fonts/Gordita\ Regular.woff') format('woff');
+    /* Add additional font formats here if needed */
+  }
+@font-face {
+    font-family: 'Gordita-medium';
+    src: url('../assets/Fonts/Gordita\ Medium.woff') format('woff');
+    /* Add additional font formats here if needed */
+  }
+@font-face {
+    font-family: 'Gordita-thin';
+    src: url('../assets/Fonts/Gordita\ Thin.woff') format('woff');
+    /* Add additional font formats here if needed */
+  }
+@font-face {
+    font-family: 'Gordita-light';
+    src: url('../assets/Fonts/Gordita\ Light.woff') format('woff');
+    /* Add additional font formats here if needed */
+  }
+body{
+    background-color: white;
+font-family: Gordita;
+}
+.hero{
+    background:url('../assets/hero_background.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    /* background-position-x: 100px; */
+}
+.food_background{
+    background: url('../assets/foodbackground.svg');
+}
+a{
+    text-decoration: none;
+    
+}
+
+.changing-text {
+  font-size: 24px;
+  transition: opacity 0.8s;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
